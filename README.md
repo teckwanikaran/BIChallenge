@@ -16,7 +16,7 @@ user_id - the unique user that generated the event. (hashed)
 **Instructions:**
 
 1. Fork this repo with your own id for our review.
-2. Download the dataset here: https://s3.amazonaws.com/freckle-dataeng-challenge/location-data-sample.tar.gz
+2. Download the dataset here: 
 3. Show the average number of events per user-id
 4. Construct a data model that normalizes the data into a fact table with the following hierarchical dimensions:
   a) Day :: Hour
