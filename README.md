@@ -25,6 +25,6 @@ user_id - the unique user that generated the event. (hashed)
 6. Anything else you can tell us about this data that you think is relevant.
 
 __Please show the SQL (including DDL & DML) for your answers__
-
+__Please use the entire dataset provided__
 
 Please complete as much of the assignment as you have time for. How long you had time to spend on the challenge and your experience will be considered. Have some fun with it!
