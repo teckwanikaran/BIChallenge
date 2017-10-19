@@ -7,16 +7,16 @@ Each entry in this data set is a "location-event", it is the raw feed from a . I
 **Data Dictionary:**
 
 app_id - The identifier of the application the data event came from. There are many app_ids in 
-data_source - The unique name of data source. There is a _mutually exclusive_ set of app_ids for each data source. (hashed)
+data_source - The unique name of data source. There is a _mutually exclusive_ set of app_ids for each data source. 
 lat - lattitude of the event
 lng - longitude of the event
 event_date - timestamp of the event
-user_id - the unique user that generated the event. (hashed)
+user_id - the unique user that generated the event. 
 
 **Instructions:**
 
 1. Fork this repo with your own id for our review.
-2. Download the dataset here: 
+2. Download the dataset here: https://s3.amazonaws.com/freckle-dataeng-challenge/bichallenge-loc-event-sample.csv.gz
 3. Show the average number of events per user-id
 4. Construct a data model that normalizes the data into a fact table with the following hierarchical dimensions:
   a) Day :: Hour
