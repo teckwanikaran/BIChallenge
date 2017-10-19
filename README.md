@@ -22,7 +22,7 @@ user_id - the unique user that generated the event.
   a) Day :: Hour
   b) Data Source :: App ID
 5. Using the data model constructed in 4, determine how many unique user-ids are represented in hour 1-2pm (13:00-14:00) for app_id 17, data_source twine
-6. Anything else you can tell us about this data that you think is relevant.
+6. Determine what type of statistical distribution the population of events/idfa. Events per IDFA is determined by counting the total number of events per unique IDFA within the entire population (the data set already bounded at 24 hours). 
 
 __Please show the SQL (including DDL & DML) for your answers__
 __Please use the entire dataset provided__
