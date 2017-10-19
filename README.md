@@ -21,7 +21,7 @@ user_id - the unique user that generated the event.
 4. Construct a data model that normalizes the data into a fact table with the following hierarchical dimensions:
   a) Day :: Hour
   b) Data Source :: App ID
-5. Using the data model constructed in 4, determine how many unique user-ids are represented in hour 1-2pm (13:00-14:00) for app_id 17, data_source d345928b32d54a072eb41570d153af069e4056fbb07cbf559d7f43c48c7bb7e2 
+5. Using the data model constructed in 4, determine how many unique user-ids are represented in hour 1-2pm (13:00-14:00) for app_id 17, data_source twine
 6. Anything else you can tell us about this data that you think is relevant.
 
 __Please show the SQL (including DDL & DML) for your answers__
