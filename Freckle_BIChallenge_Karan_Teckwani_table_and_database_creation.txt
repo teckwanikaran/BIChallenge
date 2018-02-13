@@ -1,0 +1,17 @@
+Last login: Sat Feb 10 16:52:40 on ttys000
+KARANs-MacBook-Pro:FreckleIOT_BIChallenge_Karan_Teckwani karanteckwani$ sqlite3 Freckle_BIChallenge.db
+SQLite version 3.21.0 2017-10-24 18:55:49
+Enter ".help" for usage hints.
+sqlite> .mode csv
+sqlite> .import bichallenge-loc-event-sample.csv events_sample
+sqlite> ^D
+KARANs-MacBook-Pro:FreckleIOT_BIChallenge_Karan_Teckwani karanteckwani$ 
+
+
+
+
+
+
+
+
+
